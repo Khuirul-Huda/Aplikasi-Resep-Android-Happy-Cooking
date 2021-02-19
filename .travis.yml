@@ -13,3 +13,4 @@ android:
 
 before_installs:
   - chmod +x gradlew
+  - yes | sdkmanager --licenses
